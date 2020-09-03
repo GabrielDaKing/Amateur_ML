@@ -1,7 +1,7 @@
 class Linear:
     """
-    A class to handle the basic training and priction functions
-    of a Linear Regression model while also storing the slope and intercept.
+    A class to handle the basic training and pridiction capability
+    of a Linear Regression model while storing the slope and intercept.
     """
     def __init__(self):
 
