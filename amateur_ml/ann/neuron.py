@@ -1,11 +1,11 @@
-from random import random,seed
+from random import random, seed
 from activation_functions import *
 
 class Neuron:
     """
     A class to handle the working of a single neuron in the network.
     """
-    def __init__(self, no_of_inputs, zero = False, actifunc = relu):
+    def __init__(self, no_of_inputs, actifunc = relu, zero = False):
 
         if not zero:
             self.weights = [random() for _ in range(no_of_inputs)]
